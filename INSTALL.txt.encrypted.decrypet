@@ -1,0 +1,17 @@
+0) Goto [Extracted source folder]src/lib/zlib and run command:
+	make clean
+	make
+1) Install gcc and gcc-c++ (c and c++ compiler)
+2) Goto [Extracted source folder]
+3) Install autoconf and automake
+4) Run command: autoreconf -fiv
+5) Run command: ./configure
+6) Run command: make
+7) Run command: sudo make install
+8) Goto [Extracted source folder]/bin and run command: ./install_server with admin of system.
+9) In server side, open file: /andromeda/server/config.conf
+	Write port on server, which port listen to service client.
+10) In server side, open file: /andromeda/client/config.conf
+	Write port of server on line 1: example 10001
+	Write server address on line 2: example localhost
+
